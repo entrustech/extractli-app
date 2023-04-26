@@ -4,7 +4,6 @@ const About = () => {
   return (
     <div>
       <h1>Extractli App - Usage Guide</h1>
-
       <h2>Overview</h2>
       <p>
         The Extractli App is a user-friendly tool designed to extract text from various document formats such as PDF, Word, and images. It is an invaluable resource for professionals, students, and anyone who requires an efficient way to parse text from documents quickly. This guide will walk you through the steps to use the Extractli App, who can benefit from it, and how to get in touch with us for custom development solutions.
@@ -40,11 +39,16 @@ const About = () => {
 
       <h2>Contact Us for Customized Solutions</h2>
       <p>
-        If you're interested in building a customized document parsing solution tailored to your specific needs, our team of experienced developers is here to help. Reach out to us at <a href="mailto:contact@entrustechinc.com">contact@entrustechinc.com</a> to discuss your requirements and explore how we can create the perfect application to streamline your document parsing tasks.
+        If you're interested in building a customized solution tailored to your specific needs, our team of experienced developers is here to help. Reach out to us at <a href="mailto:contact@entrustechinc.com">contact@entrustechinc.com</a> to discuss your requirements and explore how we can create the perfect application to streamline your tasks.
       </p>
       <p>
         Don't let cumbersome document formats hold you back - let the Extractli App unlock the information you need with ease!
       </p>
+      <br/>
+      <div class="quote-container">
+        <h3 class="quote-text">"Unlock the hidden potential of your documents with our powerful and intuitive document parser."</h3>
+        <p class="quote-author">- Entrustech</p>
+      </div>
     </div>
   );
 };
