@@ -1,0 +1,33 @@
+.text-display-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .uploaded-doc-info,
+  .parsed-text {
+    flex: 1;
+    min-width: 45%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .uploaded-doc-info img,
+  .uploaded-doc-info embed,
+  .uploaded-doc-info .doc-viewer {
+    width: 100%;
+    max-height: 600px;
+    object-fit: contain;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .parsed-text pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  
+  .parsed-text-content {
+    text-align: left;
+  }
