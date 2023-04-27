@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'extractli'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_3B6DFE5FD98F4819AE5696CF03A2FAD8 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D3EC4CE8F3FE42B8867696073BD081DC }}
           package: .
