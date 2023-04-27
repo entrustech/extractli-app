@@ -19,7 +19,7 @@
     "eject": "react-scripts eject",
     "proxy": "node server.js"
   },
-  "proxy": "https://extractli-api.azurewebsites.net/",
+  "proxy": "https://extractli-api.azurewebsites.net",
   "eslintConfig": {
     "extends": [
       "react-app",
