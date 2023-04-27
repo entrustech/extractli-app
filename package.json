@@ -22,6 +22,7 @@
     "nodemon": "^2.0.22",
     "pdf-parse": "^1.1.1",
     "react": "^18.2.0",
+    "react-scripts": "^5.0.1",
     "tesseract.js": "^4.0.3",
     "textract": "^2.5.0"
   }
