@@ -27,13 +27,9 @@ const Dropzone = ({ updateDisplay }) => {
       const formData = new FormData();
       formData.append("file", file);
 
-      const response = await axios.post(
-        `http://localhost:3001` + endpoint,
-        formData,
-        {
-          headers: { "Content-Type": "multipart/form-data" },
-        }
-      );
+      const response = await axios.post(endpoint, formData, {
+        headers: { "Content-Type": "multipart/form-data" },
+      });
 
       if (response.status === 200) {
         const { text } = response.data;
