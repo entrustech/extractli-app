@@ -70,3 +70,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Docker
+
+# Build
+docker build -t extractli-app .
+
+# Run
+docker run -p 4000:3000 -e REACT_APP_API_URL=http://localhost:3000 extractli-app
+
+# List of images
+docker images
